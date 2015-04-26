@@ -1,3 +1,9 @@
+redis (2:3.0.0-2~bpo8+1) jessie-backports; urgency=medium
+
+  * Rebuild for jessie-backports.
+
+ -- Chris Lamb <lamby@debian.org>  Sun, 26 Apr 2015 17:59:41 +0100
+
 redis (2:3.0.0-2) unstable; urgency=medium
 
   * redis-server was not able to start under systemd with default redis.conf
