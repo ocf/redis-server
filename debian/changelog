@@ -1,3 +1,9 @@
+redis (2:3.0.1-1~bpo8+1) jessie-backports; urgency=medium
+
+  * Rebuild for jessie-backports.
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 13 May 2015 10:15:27 +0100
+
 redis (2:3.0.1-1) unstable; urgency=medium
 
   * New upstream release.
