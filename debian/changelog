@@ -3,6 +3,7 @@ redis (2:2.8.17-1~bpo70+2) wheezy-backports; urgency=medium
   * Rebuild for wheezy-backports.
   * Fix Lua sandbox bypass by disabling Lua bytecode loading
     as per CVE-2015-4335.
+  * Drop systemd support from wheezy-backports branch.
 
  -- Chris Lamb <lamby@debian.org>  Mon, 15 Jun 2015 10:49:19 +0100
 
