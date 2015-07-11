@@ -2,6 +2,7 @@ redis (2:3.0.2-3) UNRELEASED; urgency=medium
 
   * Add some missing tools:
     - ./utils/lru/
+    - ./src/redis-trib.rb
     - Add ruby-redis to Suggests.
 
  -- Chris Lamb <lamby@debian.org>  Sat, 11 Jul 2015 15:09:41 +0100
