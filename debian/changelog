@@ -1,3 +1,23 @@
+redis (2:3.0.2-3) unstable; urgency=medium
+
+  * Add some missing tools:
+    - ./utils/lru/
+    - ./src/redis-trib.rb
+    - Don't compress redis-trib.rb
+    - Add ruby-redis to Suggests.
+
+ -- Chris Lamb <lamby@debian.org>  Sat, 11 Jul 2015 15:23:33 +0100
+
+redis (2:3.0.2-2) unstable; urgency=medium
+
+  * Create /var/run/redis with the correct permissions in systemd .service
+    files. Thanks to Sebastian Lipponer <mail@sebastianlipponer.de>.
+    (Closes: #787257)
+  * Install Bash completions to /usr/share/bash-completion/completions instead
+    of /etc/bash_completion.d (see #787257).
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 17 Jun 2015 15:56:52 +0100
+
 redis (2:3.0.2-1~bpo8+1) jessie-backports; urgency=medium
 
   * Rebuild for jessie-backports.
