@@ -1,8 +1,8 @@
-redis (2:3.0.3-1) UNRELEASED; urgency=medium
+redis (2:3.0.3-1) unstable; urgency=medium
 
   * New upstream release.
 
- -- Chris Lamb <lamby@debian.org>  Fri, 17 Jul 2015 14:44:52 +0100
+ -- Chris Lamb <lamby@debian.org>  Fri, 17 Jul 2015 14:48:12 +0100
 
 redis (2:3.0.2-3) unstable; urgency=medium
 
